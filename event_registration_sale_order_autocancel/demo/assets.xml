@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 Moduon Team S.L.
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl-3.0) -->
+<data>
+    <template id="assets_frontend_demo" inherit_id="website.assets_frontend">
+        <xpath expr=".">
+            <script
+                type="text/javascript"
+                src="/module/static/src/js/web_module_name.tour.js"
+            />
+        </xpath>
+    </template>
+</data>

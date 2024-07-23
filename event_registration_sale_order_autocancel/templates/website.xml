@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 Moduon Team S.L.
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl-3.0) -->
+<data>
+    <!-- Website page views -->
+    <template id="sample_view" name="Sample View">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section>
+                    <div class="container">
+                        <h1>A website page</h1>
+                        <p>This is the page Qweb XHTLM content</p>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+
+    <!-- Expose views as a website pages -->
+    <record id="sample_page" model="website.page">
+        <field name="url">/sample</field>
+        <field name="is_published">True</field>
+        <field name="view_id" ref="sample_view" />
+        <field name="track">True</field>
+    </record>
+</data>
