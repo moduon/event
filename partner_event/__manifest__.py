@@ -24,6 +24,7 @@
         "views/event_registration_view.xml",
         "wizard/res_partner_register_event_view.xml",
     ],
+    "maintainers": ["yajo", "rafaelbn"],
     "post_init_hook": "post_init_hook",
     "installable": True,
 }
