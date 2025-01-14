@@ -10,9 +10,9 @@ CRM Event Category
    !! source digest: sha256:09e42eee631be5c4d8f7545e08b6f1e980733f13acaad9d91cd4eb0fe261c764
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-.. |badge1| image:: https://img.shields.io/badge/maturity-Production%2FStable-green.png
+.. |badge1| image:: https://img.shields.io/badge/maturity-Mature-brightgreen.png
     :target: https://odoo-community.org/page/development-status
-    :alt: Production/Stable
+    :alt: Mature
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
@@ -45,8 +45,8 @@ Configuration
 
 To make use of this module, a user needs these minimal permissions:
 
-- Sales / User: Own Documents Only
-- Events / User
+-  Sales / User: Own Documents Only
+-  Events / User
 
 Usage
 =====
@@ -62,18 +62,18 @@ To know if there are events planned of a certain category:
 1. Go to *Events > Configuration > Event Templates* and pick one.
 2. Use the new *Events* smart button.
 
-   - It only counts those that are upcoming or running.
-   - The number between parenthesis is the available seats sum of all
-     those events.
+   -  It only counts those that are upcoming or running.
+   -  The number between parenthesis is the available seats sum of all
+      those events.
 
 To know if there is people interested in a certain category of event:
 
 1. Go to *Events > Configuration > Event Categories* and pick one.
 2. Use the new *Opportunities* smart button.
 
-   - It only counts opportunities that aren't won or lost.
-   - The number between parenthesis is the wanted seats sum of all those
-     events.
+   -  It only counts opportunities that aren't won or lost.
+   -  The number between parenthesis is the wanted seats sum of all
+      those events.
 
 Bug Tracker
 ===========
@@ -96,11 +96,11 @@ Authors
 Contributors
 ------------
 
-- `Tecnativa <https://www.tecnativa.com>`__:
+-  `Tecnativa <https://www.tecnativa.com>`__:
 
-  - Jairo Llopis
-  - Stefan Ungureanu
-  - Pilar Vargas
+   -  Jairo Llopis
+   -  Stefan Ungureanu
+   -  Pilar Vargas
 
 Maintainers
 -----------
